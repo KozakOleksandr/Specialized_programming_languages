@@ -1,6 +1,6 @@
 import math
 
-class Calculator_engine:
+class _Calculator_engine:
 
     def __init__(self):
         self.settings = {

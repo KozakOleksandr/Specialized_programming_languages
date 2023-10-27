@@ -1,7 +1,7 @@
-from calculator_engine import *
+from calculator_engine import _Calculator_engine
 
 
-class Calculator(Calculator_engine):
+class Calculator(_Calculator_engine):
 
     def runCalculator(self):
         while True:
