@@ -1,2 +1,2 @@
 # Specialized_programming_languages
-This repository is created for labs on Python
+This repository is created for Python labs 
