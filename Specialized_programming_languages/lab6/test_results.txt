@@ -1,0 +1,35 @@
+test_getOperator_invalid_then_valid_operators (unittests_for_calculator.CalculatorUnittest.test_getOperator_invalid_then_valid_operators) ... FAIL
+test_getOperator_valid_operators (unittests_for_calculator.CalculatorUnittest.test_getOperator_valid_operators) ... ok
+test_getParamValue_invalid_input_then_valid_input (unittests_for_calculator.CalculatorUnittest.test_getParamValue_invalid_input_then_valid_input) ... ok
+test_mixed_numbers_addition (unittests_for_calculator.CalculatorUnittest.test_mixed_numbers_addition) ... ok
+test_mixed_numbers_division (unittests_for_calculator.CalculatorUnittest.test_mixed_numbers_division) ... ok
+test_mixed_numbers_multiplication (unittests_for_calculator.CalculatorUnittest.test_mixed_numbers_multiplication) ... ok
+test_mixed_numbers_subtraction (unittests_for_calculator.CalculatorUnittest.test_mixed_numbers_subtraction) ... ok
+test_negative_numbers_addition (unittests_for_calculator.CalculatorUnittest.test_negative_numbers_addition) ... ok
+test_negative_numbers_division (unittests_for_calculator.CalculatorUnittest.test_negative_numbers_division) ... ok
+test_negative_numbers_multiplication (unittests_for_calculator.CalculatorUnittest.test_negative_numbers_multiplication) ... ok
+test_negative_numbers_subtraction (unittests_for_calculator.CalculatorUnittest.test_negative_numbers_subtraction) ... ok
+test_positive_numbers_addition (unittests_for_calculator.CalculatorUnittest.test_positive_numbers_addition) ... ok
+test_positive_numbers_division (unittests_for_calculator.CalculatorUnittest.test_positive_numbers_division) ... ok
+test_positive_numbers_multiplication (unittests_for_calculator.CalculatorUnittest.test_positive_numbers_multiplication) ... ok
+test_positive_numbers_subtraction (unittests_for_calculator.CalculatorUnittest.test_positive_numbers_subtraction) ... ok
+test_zero_addition (unittests_for_calculator.CalculatorUnittest.test_zero_addition) ... ok
+test_zero_division (unittests_for_calculator.CalculatorUnittest.test_zero_division) ... ok
+test_zero_multiplication (unittests_for_calculator.CalculatorUnittest.test_zero_multiplication) ... ok
+test_zero_subtraction (unittests_for_calculator.CalculatorUnittest.test_zero_subtraction) ... ok
+
+======================================================================
+FAIL: test_getOperator_invalid_then_valid_operators (unittests_for_calculator.CalculatorUnittest.test_getOperator_invalid_then_valid_operators)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\hotsf\AppData\Local\Programs\Python\Python311\Lib\unittest\mock.py", line 1375, in patched
+    return func(*newargs, **newkeywargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hotsf\OneDrive\Education\Specialized_programming_languages\lab6\unittests_for_calculator.py", line 91, in test_getOperator_invalid_then_valid_operators
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.007s
+
+FAILED (failures=1)
